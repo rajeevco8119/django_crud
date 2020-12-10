@@ -1,0 +1,8 @@
+<div class="main">
+    <form method="POST">
+        {% csrf_token %}
+        Are you sure you want to delete the item?
+        <input type="submit" value="Yes" />
+        <a href="/geekapi">Cancel </a>
+    </form>
+</div>
